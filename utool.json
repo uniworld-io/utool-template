@@ -1,0 +1,14 @@
+{
+  "ignore": [
+    "README.md",
+    ".gitignore"
+  ],
+  "commands": {
+    "Compile": "utool compile",
+    "Migrate": "utool migrate",
+    "Test contracts": "utool test"
+  },
+  "hooks": {
+    "post-unpack": "bash post-unpack.sh && rm post-unpack.sh && npm install"
+  }
+}
