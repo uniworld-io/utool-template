@@ -26,15 +26,15 @@ Edit your utool.js configuration file, change the private key then run the follo
 
  - For the development environment
 ```
-    utool migrate development 
+    utool migrate --network development 
 ```
  - For the testnet environment
 ```
-    utool migrate testnet 
+    utool migrate --network testnet 
 ```
  - For the mainnet environment
 ```
-    utool migrate mainet 
+    utool migrate --network mainet 
 ```
 
 Results after running the migrate command will look like following:
